@@ -1,0 +1,165 @@
+body {
+  max-width:1200px;
+  font-size:26px;
+   color:#445162;
+}
+
+p{
+  font-size: 16px;
+}
+
+
+.header{
+  background:#445162;
+  width: auto;
+  height: 400px;
+  color:white;
+  padding-top:50px;
+  padding-left:15px;
+
+}
+
+.header-right{
+  width: 450px;
+  height:250px;
+  background-color: white;
+  position:absolute;
+  left:700px;
+  top:100px;
+
+}
+.container-right{
+  width: 450px;
+  height:250px;
+  background-color: #445162;
+  position:relative;
+  left:700px;
+  top:-150px;
+
+}
+.container{
+  width:600px;
+  height:400px;
+  background-color:white;
+
+}
+.contact{
+  width:auto;
+  height:400px;
+background-color:#445162;
+}
+.contact textarea{
+  width: 300px;
+  height: 100px;
+  margin-top:10px;
+
+}
+.contact input{
+  width: 300px;
+}
+#send{
+  width: 100px;
+  height: 30px;
+  border-top-left-radius:5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-left: 300px;
+}
+#send:hover{
+  background-color: white;
+  color:#445162;
+  transition: 1s ease;
+  transform: rotate(360deg);
+}
+#send:active{
+  background-color: black;
+}
+
+#send:disabled{
+  color:yellow;
+}
+
+h3{
+  color:white;
+  margin-left: 600px;
+}
+.feedback,
+input,
+textarea{
+  margin-left:200px;
+  border-top-left-radius:5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius:5px;
+}
+
+.footer{
+  width:auto;
+  height:8px;
+  background-color: white;
+  font-size: 12px;
+  text-align: center;
+  color:#445162;
+}
+.icon{
+  position:absolute;
+  left:750px;
+  top:990px;
+  width:350px;
+  color:white;
+  background-color:#445162;
+ 
+
+}
+.icon a{
+  font-size: 24px;
+text-decoration: none;
+color:black;
+  width:30px;
+  height:60px;
+}
+
+.icons img{
+display: inline;
+}
+
+.icons li{
+  list-style: none;
+float: right;
+}
+.block-left{
+  position: absolute;
+  top:1150px;
+  left:710px;
+}
+
+
+.rate
+{
+  display: block;
+  overflow: hidden;
+  height: 26px;
+}
+
+.rate__input
+{
+  display: none;
+}
+
+
+.rate__star
+{
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  background: url("http://www.matim-dev.com/uploads/1/5/8/0/15804842/3163379_orig.png") top left no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.rate__star.rate__star:hover ~ .rate__input ~ .rate__star,
+.rate__input:checked ~ .rate__input ~ .rate__star
+{
+  background-position: 100% 0;
+}
